@@ -5,6 +5,7 @@ html, body {
 img {
   margin: 0 auto;
   object-fit: contain;
+  width: 250px;
 }
 
 body{
