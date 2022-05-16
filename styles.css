@@ -3,8 +3,8 @@ html, body {
 }
 
 body{
-  /* background-color: #CAF0F8; */
-  
+  background-color: #CAF0F8; 
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -59,19 +59,20 @@ a:hover {
   background-size: 0 3px, 100% 3px;
 }
 
-
-
-
 h2 {
   color: #03045E;
   margin-top: 20px;
+  font-family: 'Lobster', cursive;
 }
 
 
 #title{
   text-align: center;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
   /* background-color: #03045E; */
-  color: #03045E;
+  color: #CAF0F8;
+  background-color: #00B4D8;
   padding: 20px;
   margin: 0;
 }
@@ -96,7 +97,8 @@ img {
 .bottom-content > p {
   margin-bottom: 0;
   font-weight: 500;
-  text-align: center
+  text-align: center;
+  color: #CAF0F8;
 }
 
 .created {
